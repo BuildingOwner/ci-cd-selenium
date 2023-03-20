@@ -24,7 +24,7 @@ public class DemoE2ETest {
 
         @BeforeEach
         public void setUp() {
-            System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "D:\\dev_tools\\python\\chromedriver.exe");
 //            WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
 //            options.addArguments("--headless");
