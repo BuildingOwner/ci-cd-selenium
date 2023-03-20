@@ -31,7 +31,7 @@ public class Calculator {
     public int getDifference() {
          this.result = a - b;
          return this.result;
-    }
+    } //sadadsad
 
 }
 
